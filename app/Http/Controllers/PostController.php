@@ -101,6 +101,7 @@ class PostController extends Controller
             'body' => $request->input('body'),
         ]);
 
+
         if ($response->failed()) {
             return response()->json(['error' => 'Failed to update post on dummyjson.com'], 500);
         }
