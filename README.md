@@ -41,24 +41,39 @@ composer install
 Скопируйте файл .env.example в .env и настройте его:
 
 APP_NAME=Laravel
+
 APP_ENV=local
+
 APP_KEY=base64:r2MSeRzfUzXm2kKRCxZlgbUDKtLt9jwTGHLHfgtT6j8=
+
 APP_DEBUG=true
+
 APP_URL=http://localhost
 
 LOG_CHANNEL=stack
+
 LOG_DEPRECATIONS_CHANNEL=null
+
 LOG_LEVEL=debug
 
+
 APP_PORT=81
+
 FORWARD_DB_PORT=5433
 
+
 DB_CONNECTION=pgsql
+
 DB_HOST=pgsql
+
 DB_PORT=5432
+
 DB_DATABASE=laravel
+
 DB_USERNAME=sail
+
 DB_PASSWORD=password
+
 
 остальные настройки можно оставить по умолчанию
 
