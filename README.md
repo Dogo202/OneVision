@@ -4,6 +4,11 @@
 
 Этот проект представляет собой API для CRUD операций с постами блога, использующий Laravel Sail и PostgreSQL. Он также интегрирует Laravel Passport для аутентификации.
 
+PHP:8.0
+Laravel: 9.19
+Laravel/passport: 12.2
+Laravel/sail: 1.0
+
 ## Требования
 
 - Docker
@@ -17,6 +22,7 @@
 Клонируйте репозиторий на ваш локальный компьютер:
 
 Bash/Ubuntu/cmd
+
 git clone https://github.com/Dogo202/onevision.git
 cd onevision
 
@@ -24,6 +30,7 @@ cd onevision
 Используйте Composer для установки зависимостей:
 
 composer install
+(убедитесь что у вас установлены необходимые расширения PHP) 
 
 3. Запуск Docker контейнеров
 Используйте Laravel Sail для запуска Docker контейнеров:
