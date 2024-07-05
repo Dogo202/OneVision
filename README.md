@@ -77,7 +77,10 @@ DB_PASSWORD=password
 
 остальные настройки можно оставить по умолчанию
 
-### 5. Выполнение миграций и установка Passport
+### 5. Генерация ключа приложения 
+./vendor/bin/sail artisan key:generate
+
+### 6. Выполнение миграций и установка Passport
 Выполните миграции и установите Laravel Passport:
 
 ./vendor/bin/sail artisan migrate
